@@ -1,40 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap'); 
-
-.btn {
-    background-color: #ffffff;
-    border: none;
-    color: white;
-    font-size: 16px;
-    cursor: pointer;
-    float: left;
-}
-
-.location {
-    max-width: auto;
-    max-height: auto;
-
-}
-
-.btn:hover {
-    background-color: #ffffff;
-}
-
-.box-it-up{
-    display: inline-flex;
-    padding: 10px;
-    float: right;
-    outline: auto;
-}
-
-.box-it-up > *{
-    margin: 0 5px;
-}
-
-html, body{
-    margin: 0px;
-    padding: 0px;
-    font-family:'Times New Roman', Times, serif;
+body, head{
+    background: #42455a;
+    margin: 0;
+    padding: 0;
     height: 100%;
+    width: 100%;
+}
+
+
+.container {
+    
+    background: #42455a;
+    position: absolute;
+    
 }
 
 .contact {
@@ -45,6 +22,14 @@ html, body{
     text-decoration: none;
     float:right;
     color:#ffffff;
+}
+.logo img {
+    width: 175px;
+    margin:15px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: block;
 }
 
 .shop-btn {
@@ -64,6 +49,7 @@ html, body{
     display: block;
     padding: 10px 30px;
 }
+
 .signin {
     height: 18px;
     padding: 10px;
@@ -74,98 +60,42 @@ html, body{
     color:#ffffff;
 }
 
-.store {
-    height: 18px;
-    padding: 10px;
-    margin: 1px 5px;
-    background-color: transparent;
-    text-decoration: none;
-    float:left;
-    color:#ffffff;
-
-}
-
-.shop {
-    float: right;
+.banner {
+    width: 80%;
+    height: 70%;
+    top: 25%;
+    left: 130px;
     position: absolute;
-    width: 135px;
-    border-radius: 9%;
-    right: 1px;
-    width: 100px;
+    color: #fff;
+
 }
 
-
-.poke {
-    
-    background-size: cover;
+.mission {
+    width: 50%;
+    float: left;
 }
 
-
-.logo img {
-    width: 120px;
-    margin:15px;
-    margin-top: -7px;
-    margin-right: 48px;
-}
-
-.aboutus {
-    width:100%;
-}
-
-.aboutus img {
-    width: 100%;
-}
-
-
-.poketext h1 {
+.mission h1{
     font-size: 43px;
     width: 640px;
-    max-width: 100%;
+    position: relative;
+    margin-left: 40px;
 }
 
+.mission p{
+    width: 650px;
+    font-size: 20px;
+    margin: 30px 0 30px 40px;
+    line-height: 25px;
+    color: #000000;
+}
 
-.pokemon {
-    width: 100%;
+.container1 {
     position: relative;
 }
-.poketext {
-    position: absolute;
-    top: 500px;
-    padding: 10px;
-}
-
-.pokemon img {
-    width: 100%;
-}
-
-.flex-container {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 30px;
-    justify-content: space-around;
-}
-
-.flex-container img {
-    width: 320px;
-    clear: both;
-    display: inline;
-
-}
-
-.shop-btn1 {
-    position: absolute;
-    text-decoration: none;
-    color: #ffffff;
-    border: 2px solid transparent;
-    border-radius: 22px;
-    background-image: linear-gradient(#42455a,#42455a), radial-gradient(circle at top left, #fd00da, #19d7f8);
-    background-origin: border-box;
-    background-clip: content-box, border-box;
-}
-
-.shop-btn1 span {
-    display: block;
-    padding: 10px 30px;
+.container1 img {
+    width:100%;
+    opacity: 0.5;
 }
 
 * {
