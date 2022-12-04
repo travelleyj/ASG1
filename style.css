@@ -1,0 +1,44 @@
+.btn {
+    background-color: #ffffff;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    float: left;
+}
+
+.location {
+    max-width: auto;
+    max-height: auto;
+
+}
+
+.location.jpg {
+    align-items: left;
+}
+.btn:hover {
+    background-color: #ffffff;
+}
+
+.shop {
+    background-color: #000014;
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 15px;
+    cursor: pointer;
+    float: right;
+    cursor: pointer;
+    
+}
+
+.location {
+    background-color: #000014;
+    border: none;
+    color: white;
+    padding: 8px 12px;
+    font-size: 12px;
+    cursor: pointer;
+    float: left;
+    cursor: pointer;
+}
