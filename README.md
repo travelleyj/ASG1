@@ -3,7 +3,8 @@
 
   As a user, I would want to be able to easily view the products that are available so that I can check if there are things that I am looking for.
 
-##These are the wireframes I made
+These are the wireframes I made
+
 ![image](https://user-images.githubusercontent.com/116325458/205498169-57ce3fdb-318e-40b5-9afb-12a028397a39.png)
 
 For the main page, I created my own logo using Illustrator, and i used <a> tag to create words and photos that are  responsive with the users. I used a button tag to create the "Shop" which has a radial gradient around it after doing some research.
